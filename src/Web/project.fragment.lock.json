@@ -1,0 +1,35 @@
+{
+  "version": 2,
+  "exports": {
+    "Core.Module/1.0.0": {
+      "type": "project",
+      "framework": ".NETFramework,Version=v4.6.1",
+      "compile": {
+        "bin/Debug/PinkSombrero.Core.Module.dll": {}
+      },
+      "runtime": {
+        "../../packages/Microsoft.Extensions.Configuration.1.0.0/lib/netstandard1.1/Microsoft.Extensions.Configuration.dll": {},
+        "../../packages/Microsoft.Extensions.Configuration.Abstractions.1.0.0/lib/netstandard1.0/Microsoft.Extensions.Configuration.Abstractions.dll": {},
+        "../../packages/Microsoft.Extensions.Configuration.FileExtensions.1.0.0/lib/net451/Microsoft.Extensions.Configuration.FileExtensions.dll": {},
+        "../../packages/Microsoft.Extensions.Configuration.Json.1.0.0/lib/net451/Microsoft.Extensions.Configuration.Json.dll": {},
+        "../../packages/Microsoft.Extensions.FileProviders.Abstractions.1.0.0/lib/netstandard1.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {},
+        "../../packages/Microsoft.Extensions.FileProviders.Physical.1.0.0/lib/net451/Microsoft.Extensions.FileProviders.Physical.dll": {},
+        "../../packages/Microsoft.Extensions.FileSystemGlobbing.1.0.0/lib/net451/Microsoft.Extensions.FileSystemGlobbing.dll": {},
+        "../../packages/Microsoft.Extensions.Primitives.1.0.0/lib/netstandard1.0/Microsoft.Extensions.Primitives.dll": {},
+        "../../packages/MongoDB.Bson.2.2.4/lib/net45/MongoDB.Bson.dll": {},
+        "../../packages/MongoDB.Driver.2.2.4/lib/net45/MongoDB.Driver.dll": {},
+        "../../packages/MongoDB.Driver.Core.2.2.4/lib/net45/MongoDB.Driver.Core.dll": {},
+        "../../packages/Newtonsoft.Json.9.0.1/lib/net45/Newtonsoft.Json.dll": {},
+        "../../packages/Ninject.3.2.2.0/lib/net45-full/Ninject.dll": {},
+        "bin/Debug/PinkSombrero.Core.Module.dll": {}
+      },
+      "contentFiles": {
+        "bin/Debug/PinkSombrero.Core.Module.pdb": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true
+        }
+      }
+    }
+  }
+}

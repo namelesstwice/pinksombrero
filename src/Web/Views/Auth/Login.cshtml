@@ -1,0 +1,26 @@
+﻿@using System.Threading.Tasks
+
+@model PinkSombrero.Web.LoginModel
+
+@{
+    ViewData["Title"] = "Вход";
+}
+
+<form asp-controller="Auth" asp-action="Login" method="post" class="form-signin">
+	<h3>Введите имя пользователя и пароль</h3>
+	<span class="help-block">
+		Которые вы используете для входа в Windows
+	</span>
+	<div asp-validation-summary="ModelOnly"></div>
+	<div class="form-group">
+		<label asp-for="Username">Имя пользователя</label>
+		<input asp-for="Username" class="form-control" placeholder="Доменное имя, например ALS\i.ivanov"/>
+		<span asp-validation-for="Username" class="field-validation-error"></span>
+	</div>
+	<div class="form-group">
+		<label asp-for="Password">Пароль</label>
+		<input asp-for="Password" class="form-control" placeholder="Пароль от доменной учётной записи"/>
+		<span asp-validation-for="Password" class="field-validation-error"></span>
+	</div>
+	<button type="submit" class="btn btn-primary">Вход</button>
+</form>
